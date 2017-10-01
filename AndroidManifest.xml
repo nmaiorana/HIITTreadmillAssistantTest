@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.svi.hiita.test"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-library android:name="android.test.runner" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="10" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+    </application>
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="com.svi.hiitlib" />
+
+</manifest>
